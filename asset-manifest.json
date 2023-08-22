@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rpsjs/static/css/main.983fbbb0.css",
+    "main.js": "/rpsjs/static/js/main.d594950d.js",
+    "static/media/404.svg": "/rpsjs/static/media/404.2b0335535e0ef014b6df.svg",
+    "static/media/bg.png": "/rpsjs/static/media/bg.0292a45d1426f1386a1d.png",
+    "index.html": "/rpsjs/index.html",
+    "main.983fbbb0.css.map": "/rpsjs/static/css/main.983fbbb0.css.map",
+    "main.d594950d.js.map": "/rpsjs/static/js/main.d594950d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.983fbbb0.css",
+    "static/js/main.d594950d.js"
+  ]
+}
