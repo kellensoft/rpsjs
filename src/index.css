@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body, html, #root, main {
+  height: 100%;
+}
+
+body {
+  background-color: darkgray;
+  background-image: url('data:image/svg+xml,<svg width="200" height="200" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><style>.pic{font:italic 0.5em sans-serif;fill:%23000}</style><g transform="translate(-6 0)"><text x="8" y="8" class="pic">📄</text><text x="8" y="24" class="pic">🪨</text><text x="8" y="40" class="pic">✂️</text><text x="24" y="8" class="pic">✂️</text><text x="24" y="24" class="pic">📄</text><text x="24" y="40" class="pic">🪨</text><text x="40" y="8" class="pic">🪨</text><text x="40" y="24" class="pic">✂️</text><text x="40" y="40" class="pic">📄</text></g></svg>')
+}

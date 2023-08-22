@@ -1,0 +1,40 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content:space-between;
+    width: 60%;
+  }
+  
+  .match {
+    display: flex;
+    font-size: 250%;
+  }
+  
+  .player {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .left {
+    transform:scaleX(-1) rotate(-90deg);
+  }
+  
+  .right {
+    transform:rotate(-90deg);
+  }
+  
+  .グー {
+    font-size: 1em;
+  }
+  
+  .チョキ {
+    font-size: 1.26em;
+  }
+  
+  .パー {
+    font-size: 1.30em;
+    margin-top: -0.1em;
+    content: 'paper'!important;
+  }

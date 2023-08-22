@@ -1,0 +1,41 @@
+
+.back,
+.run {
+  font-size: 1rem;
+}
+
+.complete {
+  font-size: 2rem;
+}
+
+.top,
+.bottom {
+  margin:auto;
+  border-radius: .5rem;
+  height: 50%;
+}
+
+@media (min-width: 992px) {
+  .top,
+  .bottom {
+    height: 100%;
+  }
+}
+
+.top {
+  background-color: rgba(0,0,0,0.7);
+  background-image: url('../images/bg.png');
+  color: white
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score{
+  margin: .5em;
+  font-size: 300%;
+  font-family: 'Roboto Mono';
+}

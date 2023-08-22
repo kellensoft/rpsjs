@@ -1,0 +1,37 @@
+.editor {
+  background-color:#555;
+  display: flex;
+  justify-content: stretch;
+  flex-direction: column;
+  height: 100%;
+  border-radius: .5rem;
+}
+
+.editorheader {
+  margin: 1%;
+  font-size: 20px;
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.editorbody {
+  flex-grow:1;
+}
+
+.editorbody > :global(div),
+:global(.CodeMirror) {
+  height: 100%!important;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.hidden{
+  visibility: hidden;
+  position: absolute;
+  z-index:-1;
+  top:0;
+}

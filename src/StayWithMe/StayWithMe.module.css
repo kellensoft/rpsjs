@@ -1,0 +1,26 @@
+.head{
+    background: deepskyblue;
+    color: aliceblue;
+    text-shadow: 0 0 3px lightgray, 0 0 5px black;
+}
+
+.ads{
+    background: linen;
+    height: 429px;
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+.penguin {
+    padding-top: 3.8rem;
+    padding-left: 1rem;
+    background-image: url('../images/404.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.penguin > p {
+    font-size: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
